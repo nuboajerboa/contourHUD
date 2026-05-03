@@ -1,0 +1,266 @@
+"Resource/UI/HudDemomanPipes.res"
+{
+	"background"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"background"
+		"xpos"			"c325"
+		"ypos"			"344"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/meters/top/top"
+		"scaleImage"	"1"
+	}
+	
+	"ChargeLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabel"
+		"xpos"					"22"
+		"ypos"					"r66"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Charge"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"proportionaltoparent"	"1"
+		"font"					"MedicChargeFont"
+		"dropshadow"			"1"
+	}
+
+	"ChargeMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ChargeMeter"
+		"font"					"Default"
+		"xpos"					"22"
+		"ypos"					"r50"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"proportionaltoparent"	"1"
+	}
+	
+	// Stickies
+	"PipesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PipesPresentPanel"
+		"xpos"			"c330"
+		"ypos"			"372"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		
+		"PipeIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"40"
+			"ypos"			"10"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"resource/svgs/meters/ico_stickybomb_active.svg"
+			"scaleImage"	"1"
+			
+			"dropshadow"	"1"
+		}
+
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"fgcolor"		"TanLight"
+			"xpos"			"12"
+			"ypos"			"12"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontMediumBold"
+			"dropshadow"	"1"
+		}
+	}
+	
+	"NoPipesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NoPipesPresentPanel"
+		"xpos"			"c330"
+		"ypos"			"372"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		
+		"PipeIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"40"
+			"ypos"			"10"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"resource/svgs/meters/ico_stickybomb_inactive.svg"
+			"scaleImage"	"1"
+			
+			"dropshadow"	"0"
+		}
+
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"fgcolor"		"TanLight"
+			"xpos"			"12"
+			"ypos"			"12"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"0"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontMediumBold"
+			"dropshadow"	"1"
+		}
+	}
+	
+	// Mines
+	"MinesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MinesPresentPanel"
+		"xpos"			"c330"
+		"ypos"			"372"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		
+		"PipeIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"40"
+			"ypos"			"10"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"resource/svgs/meters/ico_mine_active.svg"
+			"scaleImage"	"1"
+			
+			"dropshadow"	"1"
+		}
+
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"fgcolor"		"TanLight"
+			"xpos"			"12"
+			"ypos"			"12"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontMediumBold"
+			"dropshadow"	"1"
+		}
+	}
+	
+	"NoMinesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NoMinesPresentPanel"
+		"xpos"			"c330"
+		"ypos"			"372"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		
+		"PipeIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PipeIcon"
+			"xpos"			"40"
+			"ypos"			"10"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"resource/svgs/meters/ico_mine_inactive.svg"
+			"scaleImage"	"1"
+			
+			"dropshadow"	"0"
+		}
+
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"fgcolor"		"TanLight"
+			"xpos"			"12"
+			"ypos"			"12"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"0"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudFontMediumBold"
+			"dropshadow"	"1"
+		}
+	}
+}

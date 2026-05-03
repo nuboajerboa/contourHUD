@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture" "sprites\obj_icons\point_escape/control_point_escape_grn"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

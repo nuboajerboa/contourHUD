@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/bg_goldrush_first_last_widescreen"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+	"%keywords" "tf"
+}

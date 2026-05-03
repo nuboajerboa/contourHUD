@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture" "sprites\obj_icons\point_star/control_point_star_blu"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

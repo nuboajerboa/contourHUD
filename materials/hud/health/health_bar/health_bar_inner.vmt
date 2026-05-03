@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"hud/health/health_bar/health_bar_inner"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

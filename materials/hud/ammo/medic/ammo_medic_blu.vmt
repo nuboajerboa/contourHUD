@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"hud/ammo/medic/ammo_medic_blu"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

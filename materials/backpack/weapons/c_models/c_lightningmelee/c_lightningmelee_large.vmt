@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_lightningmelee\c_lightningmelee_large"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$color" "{51 48 46}"
+}

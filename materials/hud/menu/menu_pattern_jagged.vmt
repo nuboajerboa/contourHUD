@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"hud/menu/menu_pattern_jagged"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$color" "{10 10 10}"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.025
+			"texturescrollangle" 90
+		}
+	}
+}

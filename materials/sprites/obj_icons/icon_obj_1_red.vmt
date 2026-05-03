@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture" "sprites\obj_icons\point_open/control_point_red"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}
