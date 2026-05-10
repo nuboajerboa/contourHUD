@@ -22,9 +22,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"pin_to_sibling" "BlueFlag"
-		"xpos"			"3"
-		"ypos"			"0"
+		"xpos"			"c-160"
+		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"65"
@@ -37,23 +36,22 @@
 		{
 			"if_l_red"
 			{
-				"image"		"../hud/ctf/ctf_top_left_red"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_red"
 			}
 			
 			"if_l_grn"
 			{
-				"image"		"../hud/ctf/ctf_top_left_grn"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_grn"
 			}
 			
 			"if_l_ylw"
 			{
-				"image"		"../hud/ctf/ctf_top_left_ylw"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_ylw"
 			}
 		}
 		
 		"if_3team"
 		{
-			"ypos"			"r130"
 			
 			"if_l_red"
 			{
@@ -102,7 +100,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideGrn"
 		"xpos"			"c-110"
-		"ypos"			"r78"	[$WIN32]
+		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"75"
@@ -141,9 +139,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"pin_to_sibling" "RedFlag"
-		"xpos"			"-89"
-		"ypos"			"2"
+		"xpos"			"c93"
+		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"65"
@@ -156,23 +153,22 @@
 		{
 			"if_r_blu"
 			{
-				"image"		"../hud/ctf/ctf_top_right_blu"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_blu"
 			}
 			
 			"if_r_grn"
 			{
-				"image"		"../hud/ctf/ctf_top_right_grn"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_grn"
 			}
 			
 			"if_r_ylw"
 			{
-				"image"		"../hud/ctf/ctf_top_right_ylw"
+				"image"		"../hud/gamemodes/ctf/ctf_panel_ylw"
 			}
 		}
 		
 		"if_3team"
 		{
-			"ypos"			"r130"
 
 			"if_r_grn"
 			{
@@ -255,14 +251,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CenterBG"
-		"xpos"			"c-34"
-		"ypos"			"r78"
+		"xpos"			"c-26"
+		"ypos"			"r144"
 		"zpos"			"1"
 		"wide"			"65"
-		"tall"			"75"
+		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/ctf/ctf_middle_grn"
+		"image"			"../hud/gamemodes/ctf/3team/ctf_panel_grn"
 		"scaleImage"	"1"	
 		
 		"if_3team"
@@ -310,8 +306,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c-170"
+		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -349,8 +345,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c93"
+		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -388,8 +384,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GreenScore"
-		"xpos"			"0"
-		"ypos"			"-19"
+		"xpos"			"c-170"
+		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -397,7 +393,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%greenscore%"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"3"
@@ -411,8 +407,8 @@
 		{
 			"if_c_grn"
 			{
-				"xpos"			"-72"
-				"ypos"			"-20"
+				"xpos"			"c-37"
+				"ypos"			"345"
 				"visible"		"1"
 			}
 		}
@@ -442,8 +438,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"YellowScore"
-		"xpos"			"10"
-		"ypos"			"-19"
+		"xpos"			"c93"
+		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
@@ -451,7 +447,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%yellowscore%"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"3"
@@ -691,9 +687,9 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"GreenFlag"
-		"pin_to_sibling"	"LeftSideGrn"
-		"xpos"			"84"
-		"ypos"			"0"
+		"pin_to_sibling" "PlayingTo"
+		"xpos"			"95"
+		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -704,8 +700,8 @@
 		{
 			"if_c_grn"
 			{
-				"xpos"			"-29"
-				"ypos"			"40"
+				"xpos"			"-35"
+				"ypos"			"32"
 				"visible"		"1"
 			}
 		}
@@ -746,9 +742,9 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"YellowFlag"
-		"pin_to_sibling"	"RightSideYlw"
-		"xpos"			"12"
-		"ypos"			"0"
+		"pin_to_sibling" "PlayingTo"
+		"xpos"			"-85"
+		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -759,8 +755,8 @@
 		{
 			"if_c_ylw"
 			{
-				"xpos"			"-29"
-				"ypos"			"40"
+				"xpos"			"-35"
+				"ypos"			"32"
 				"visible"		"1"
 			}
 		}

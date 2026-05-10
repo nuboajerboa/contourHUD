@@ -1,8 +1,9 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"hud/ammo/ammo_neu"
+	"$basetexture"	"hud/ammo/ammo_mask"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
+	"$color" "{102 102 102}"
 }

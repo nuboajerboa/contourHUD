@@ -57,11 +57,7 @@
 
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
-			"image"			"../hud/gamemodes/payload/track_hill"
+			"image"			"../hud/gamemodes/payload/track"
 		}
 	}	
 	
@@ -208,7 +204,7 @@
 		"xpos_minmode"		"65"		
 		"ypos"			"111"
 		"ypos_minmode"		"116"		
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"28"
 		"wide_minmode"		"18"		
 		"tall"			"28"
@@ -304,9 +300,9 @@
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"20"
 			"xpos_minmode"		"13"
-			"ypos"			"77"
+			"ypos"			"75"
 			"ypos_minmode"		"50"
-			"zpos"			"1"
+			"zpos"			"10"
 			"wide"			"40"
 			"wide_minmode"		"26"
 			"tall"			"40"
@@ -317,27 +313,27 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_neu.svg"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_blu.svg"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_red.svg"
 			}
 			
 			"if_team_green"
 			{
-				"image"			"../hud/cart_green"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_grn.svg"
 			}
 			
 			"if_team_yellow"
 			{
-				"image"			"../hud/cart_yellow"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_ylw.svg"
 			}
 			
 			"if_multiple_trains"
@@ -355,7 +351,7 @@
 			"fieldName"		"EscortItemImageBottom"	
 			"xpos"			"20"
 			"ypos"			"117"
-			"zpos"			"1"
+			"zpos"			"10"
 			"wide"			"40"
 			"tall"			"40"
 			"autoResize"	"0"
@@ -364,27 +360,27 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral_bottom"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_bottom_neu.svg"
 			"scaleImage"	"1"	
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_bottom_blu.svg"
 			}			
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_bottom_red.svg"
 			}
 			
 			"if_team_green"
 			{
-				"image"			"../hud/cart_green_bottom"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_bottom_grn.svg"
 			}
 			
 			"if_team_yellow"
 			{
-				"image"			"../hud/cart_yellow_bottom"
+			"image"			"resource/svgs/gamemodes/payload/carts/pl_cart_bottom_ylw.svg"
 			}
 			
 			"if_multiple_trains"

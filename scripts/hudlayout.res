@@ -190,10 +190,8 @@
 		"fieldName" 	"DisguiseStatus"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"5"
-		"xpos_minmode"	"-10"
-		"ypos"			"r76"
-		"ypos_minmode"	"r70"
+		"xpos"			"130"
+		"ypos"			"r68"
 		"wide"			"500"
 		"tall"			"200"
 	}

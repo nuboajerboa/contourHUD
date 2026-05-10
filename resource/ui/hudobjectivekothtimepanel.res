@@ -203,12 +203,13 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"			"10"
-		"ypos"			"-3"
+		"ypos"			"-1"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0" // Alert
 		"enabled"		"1"
 		"image"			"resource/svgs/gamemodes/shared/king.svg"
+		"drawcolor" 	"TanLight"
 		"scaleImage"	"1"
 	}
 }

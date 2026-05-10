@@ -1,8 +1,9 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"hud/health/health_red"
+	"$basetexture"	"hud/health/health_mask"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
+	"$color" "{175 72 72}"
 }

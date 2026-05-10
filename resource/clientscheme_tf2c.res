@@ -47,7 +47,7 @@ Scheme
 		"HUDGreenTeamSolid"			"112 176 74 255"
 		"HUDYellowTeamSolid"		"255 160 0 255"
 
-		"DropShadow"				"10 10 10 200"
+		"DropShadow"				"51 48 46 255"
 
 		"BuildingStatusNotBuilt"	"210 210 210 220"
 		

@@ -18,6 +18,41 @@
 		"teambg_4"		"../hud/ammo/ammo_grn"
 		"teambg_5"		"../hud/ammo/ammo_ylw"
 	}
+	
+	"HudWeaponAmmoBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponAmmoBGContour"
+		"pin_to_sibling"	"HudWeaponAmmoBG"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/ammo/ammo_mask.svg"
+		"drawcolor" 	"TanLight"
+		"scaleImage"	"1"	
+	}
+	
+	"HudWeaponAmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponAmmoIcon"
+		"pin_to_sibling"	"HudWeaponAmmoBG"
+		"xpos"			"-27"
+		"ypos"			"-2"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/ammo/ammo_icon_mask.svg"
+		"drawcolor" 	"DropShadow"
+		"alpha"			"127.5"
+		"scaleImage"	"1"	
+	}
 
 	"HudWeaponLowAmmoImage"
 	{
@@ -54,19 +89,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBGMedicCharge"
-		"xpos"			"c304"
+		"xpos"			"c300"
 		"ypos"			"380"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ammo/medic/ammo_medic_neu"
+		"image"			"../hud/ammo/ammo_neu"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo/medic/ammo_medic_red"
-		"teambg_3"		"../hud/ammo/medic/ammo_medic_blu"
-		"teambg_4"		"../hud/ammo/medic/ammo_medic_grn"
-		"teambg_5"		"../hud/ammo/medic/ammo_medic_ylw"
+		"teambg_2"		"../hud/ammo/ammo_red"
+		"teambg_3"		"../hud/ammo/ammo_blu"
+		"teambg_4"		"../hud/ammo/ammo_grn"
+		"teambg_5"		"../hud/ammo/ammo_ylw"
 	}
 	
 	"HudWeaponLowAmmoImageMedicCharge"
@@ -114,7 +149,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadowoffset"	"4"
 	}
 	
 	"AmmoInReserve"
@@ -133,7 +168,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 		"dropshadow_override"		"1"
-		"dropshadowoffset"	"2"
+		"dropshadowoffset"	"3"
 	}
 	
 	"AmmoNoClip"
@@ -152,6 +187,6 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		"dropshadow_override"		"2"
-		"dropshadowoffset"	"3"
+		"dropshadowoffset"	"4"
 	}
 }

@@ -4,15 +4,30 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"12"
-		"ypos"			"-25"
-		"ypos_minmode"			"-30"
+		"xpos"			"17"
+		"ypos"			"-20"
 		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"71"
+		"tall"			"71"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_black_bg"
+		"scaleImage"		"1"
+	}
+	
+	"TimePanelBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TimePanelBGContour"
+		"pin_to_sibling"	"TimePanelBG"
+		"xpos"			"0"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"70"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"				"../hud/timer/timer_contour"
 		"scaleImage"		"1"
 	}
 
@@ -38,6 +53,27 @@
 		"dropshadow"		"1"
 		"dropshadowresize"	"0"
 	}
+	
+	"TimePanelProgressBarShadow"
+	{
+		"ControlName"		"CTFProgressBar"
+		"fieldName"			"TimePanelProgressBarShadow"
+		"pin_to_sibling" "TimePanelProgressBar"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"3"	
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"../hud/objectives_timepanel_progressbar_shadow"
+		"color_active"		"ContourDark"
+		"color_inactive"	"ContourDark"
+		"color_warning"		"ContourDark"
+		"drawcolor"			"0 0 0 0"
+	}
+	
 	
 	"WaitingForPlayersLabel"
 	{
