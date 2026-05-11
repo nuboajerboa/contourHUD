@@ -27,9 +27,9 @@
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
 		"ypos"			"114"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"254"
-		"tall"			"14"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -67,8 +67,8 @@
 		"pin_to_sibling"  "LevelBar"
 		"xpos"			"13"
 		"ypos"			"-14"
-		"zpos"			"10"
-		"wide"			"272"
+		"zpos"			"0"
+		"wide"			"268"
 		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
@@ -89,9 +89,8 @@
 
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
-			"zpos"			"3"
-			"tall"			"12"
+			"xpos"			"0"
+			"ypos"			"-11"
 		}
 
 		"if_single_with_hills"
@@ -138,7 +137,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"59"
-		"ypos"			"81"
+		"ypos"			"82"
 		"zpos"			"20"
 		"wide"			"48"
 		"tall"			"48"
@@ -188,10 +187,10 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"59"
+			"xpos"			"90"
 			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"18"
+			"tall"			"18"
 			"image"			"../hud/cart_track_neutral_opaque"
 			
 			"if_over2team"
@@ -202,32 +201,34 @@
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"xpos"			"38"
+			"ypos"			"111"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"xpos"			"38"
+			"ypos"			"111"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_blu.svg"
+			"image"			"resource/svgs/gamemodes/payload/home/plr/plr_home_blu.svg"
 		}
 		
 		"if_multiple_trains_red"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_red.svg"
+			"image"			"resource/svgs/gamemodes/payload/home/plr/plr_home_red.svg"
 		}
 		
 		"if_multiple_trains_green"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_grn.svg"
+			"image"			"resource/svgs/gamemodes/payload/home/plr/plr_home_grn.svg"
 		}
 		
 		"if_multiple_trains_yellow"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_ylw.svg"
+			"image"			"resource/svgs/gamemodes/payload/home/plr/plr_home_ylw.svg"
 		}
 	}
 	
@@ -236,10 +237,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"0"
-		"ypos"			"114"
+		"ypos"			"111"
 		"zpos"			"2"
-		"wide"			"13"
-		"tall"			"14"
+		"wide"			"21"
+		"tall"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -252,10 +253,11 @@
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
-			"ypos"			"114"
+			"ypos"			"111"
 			"zpos"			"5"	
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"18"
+			"tall"			"18"
+			"image"			"resource/svgs/gamemodes/payload/plr_point_neu.svg"
 		}
 	}
 
@@ -330,14 +332,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"20"
-			"xpos_minmode"		"13"
 			"ypos"			"66"
-			"ypos_minmode"		"50"
 			"zpos"			"10"
 			"wide"			"40"
-			"wide_minmode"		"26"
 			"tall"			"40"
-			"tall_minmode"		"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -370,7 +368,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"43"
+				"ypos"			"36"
 				"wide"			"30"
 				"tall"			"30"
 			}						
@@ -417,7 +415,7 @@
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"71"
+				"ypos"			"78"
 				"wide"			"30"
 				"tall"			"30"
 			}			

@@ -34,7 +34,7 @@
 		
 		"if_blue_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r186"
 			
 			"if_3team"
 			{
@@ -65,7 +65,7 @@
 		
 		"if_red_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r186"
 			
 			"if_3team"
 			{
@@ -96,7 +96,7 @@
 		
 		"if_green_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r186"
 			
 			"if_3team"
 			{
@@ -127,7 +127,7 @@
 		
 		"if_yellow_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r186"
 			
 			"if_3team"
 			{

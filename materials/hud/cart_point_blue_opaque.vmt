@@ -1,10 +1,9 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "hud/gamemodes/payload/points/pl_point_mask"
+	"$baseTexture" "hud/gamemodes/payload/points/pl_point_blu"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
-	"$color" "{78 117 143}"
 }
 
