@@ -15,6 +15,24 @@
 		"scaleImage"	"1"
 	}
 	
+	"backgroundContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"backgroundContour"
+		"pin_to_sibling" "background"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/top_meter/top_meter.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"
+	}
+
+	
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"

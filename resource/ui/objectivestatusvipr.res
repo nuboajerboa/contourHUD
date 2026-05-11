@@ -20,13 +20,12 @@
 		"xpos"			"14"
 		"ypos"			"122"
 		"zpos"			"-8"
-		"wide"			"254"
+		"wide"			"204"
 		"tall"			"4"
-		"tall_minmode"	"2"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/gamemodes/payload/track"
+		"image"			"../hud/gamemodes/payload/track_hill"
 		"scaleImage"	"1"
 	}
 	
@@ -91,34 +90,34 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeIcon"	
 		"xpos"			"0"
-		"ypos"			"108"
+		"ypos"			"107"
 		"zpos"			"0"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"		"33"
+		"tall"		"33"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_red.svg"
+			"image"			"resource/svgs/gamemodes/vipr/home/pl_home_red.svg"
 		"scaleImage"	"1"
 		
 		"if_team_blue"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_blu.svg"
+			"image"			"resource/svgs/gamemodes/vipr/home/pl_home_blu.svg"
 		}
 		
 		"if_team_red"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_red.svg"
+			"image"			"resource/svgs/gamemodes/vipr/home/pl_home_red.svg"
 		}
 		
 		"if_team_green"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_grn.svg"
+			"image"			"resource/svgs/gamemodes/vipr/home/pl_home_grn.svg"
 		}
 		
 		"if_team_yellow"
 		{
-			"image"			"resource/svgs/gamemodes/payload/home/pl_home_ylw.svg"
+			"image"			"resource/svgs/gamemodes/vipr/home/pl_home_ylw.svg"
 		}
 	}
 }

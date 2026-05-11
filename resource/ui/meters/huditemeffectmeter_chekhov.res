@@ -4,8 +4,8 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"10"
+		"ypos"			"-10"
 		"zpos"			"9"
 		"wide"			"f0"
 		"tall"			"480"
@@ -23,6 +23,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/meters/top/top"
+		"scaleImage"	"1"
+	}
+	
+	"ItemEffectMeterBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterBGContour"
+		"pin_to_sibling" "ItemEffectMeterBG"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"-10"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/top_meter/top_meter.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 

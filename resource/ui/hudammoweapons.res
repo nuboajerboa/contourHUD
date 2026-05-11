@@ -149,7 +149,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		"dropshadow_override"		"1"
-		"dropshadowoffset"	"4"
+		"dropshadowoffset"	"3"
 	}
 	
 	"AmmoInReserve"
@@ -168,7 +168,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 		"dropshadow_override"		"1"
-		"dropshadowoffset"	"3"
+		"dropshadowoffset"	"2"
 	}
 	
 	"AmmoNoClip"

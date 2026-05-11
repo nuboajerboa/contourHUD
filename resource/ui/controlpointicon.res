@@ -13,6 +13,23 @@
 		"enabled"	"1"
 	}
 	
+	"ControlPointIconContour"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"	"ControlPointIconContour"
+		"pin_to_sibling"	"ControlPointIcon"
+		"xpos"		"0"
+		"ypos"		"26"
+		"zpos"		"-10"
+		"wide"		"33"
+		"tall"		"33"
+		"visible"	"1"
+		"enabled"	"1"
+		"image"			"resource/svgs/gamemodes/control_point/control_point_mask.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"
+	}
+
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"

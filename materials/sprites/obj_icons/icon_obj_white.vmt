@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-    "$baseTexture" "sprites\obj_icons\point_open/control_point_white"
-	"$translucent" "1"
-	"$ignorez" "1"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
+    "$baseTexture" "sprites/obj_icons/point_open/control_point_mask"
+    "$translucent" "1"
+    "$ignorez" "1"
+    "$vertexcolor" "1"
+    "$vertexalpha" "1"
 }

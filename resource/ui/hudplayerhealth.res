@@ -93,6 +93,8 @@
 		"textAlignment"	"center"	
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
+		"dropshadow_override"		"1"
+		"dropshadowoffset"	"4"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

@@ -37,6 +37,7 @@
 		"enabled"	"1"
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
 	}	
@@ -149,8 +150,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"10"
+		"ypos"					"-10"
 		"wide"					"f0"
 		"tall"  				"480"
 		"visible" 				"1"
@@ -997,8 +998,8 @@
 	HudDemomanPipes
 	{
 		"fieldName"				"HudDemomanPipes"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"10"
+		"ypos"					"-10"
 		"wide"					"f0"
 		"tall"  				"480"
 		"visible" 				"1"

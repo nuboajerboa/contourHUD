@@ -15,6 +15,23 @@
 		"scaleImage"	"1"	
 	}
 	
+	"BackgroundContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundContour"
+		"pin_to_sibling" "Background"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/medic/medic_uber_icon.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"	
+	}
+	
 	"MeterBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,6 +44,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/meters/medic/medic_uber_meter"
+		"scaleImage"	"1"			
+	}
+	
+	"MeterBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MeterBGContour"
+		"pin_to_sibling" "MeterBG"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"-5"
+		"wide"			"150"
+		"tall"			"150"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/medic/medic_uber_meter.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"			
 	}
 	
@@ -221,6 +255,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 	
@@ -228,14 +263,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"InvulnClusterIcon"
-		"xpos"			"c354"
-		"ypos"			"422"
+		"xpos"			"c348"
+		"ypos"			"413"
 		"zpos"			"20"
-		"wide"			"o1"
-		"tall"			"36"
+		"wide"			"52"
+		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_invuln.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 	
@@ -243,14 +279,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KritzClusterIcon"
-		"xpos"			"c354"
-		"ypos"			"422"
+		"xpos"			"c348"
+		"ypos"			"413"
 		"zpos"			"20"
-		"wide"			"o1"
-		"tall"			"36"
+		"wide"			"52"
+		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_kritz.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 
@@ -258,14 +295,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NaderClusterIcon"
-		"xpos"			"c354"
-		"ypos"			"423"
+		"xpos"			"c348"
+		"ypos"			"413"
 		"zpos"			"20"
-		"wide"			"o1"
-		"tall"			"36"
+		"wide"			"52"
+		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_bubble.svg"
+		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 }

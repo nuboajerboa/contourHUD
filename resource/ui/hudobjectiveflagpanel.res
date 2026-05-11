@@ -22,31 +22,31 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-160"
+		"xpos"			"c-158"
 		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/gamemodes/ctf/ctf_panel_blu"
+		"image"			"../hud/gamemodes/ctf/left/ctf_left_blu"
 		"scaleImage"	"1"	
 		
 		"if_2team"
 		{
 			"if_l_red"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_red"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_red"
 			}
 			
 			"if_l_grn"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_grn"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_grn"
 			}
 			
 			"if_l_ylw"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_ylw"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_ylw"
 			}
 		}
 		
@@ -55,17 +55,17 @@
 			
 			"if_l_red"
 			{
-				"image"		"../hud/ctf/ctf_top_left_red"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_red"
 			}
 
 			"if_l_grn"
 			{
-				"image"		"../hud/ctf/ctf_top_left_grn"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_grn"
 			}
 
 			"if_l_ylw"
 			{
-				"image"		"../hud/ctf/ctf_top_left_ylw"
+				"image"		"../hud/gamemodes/ctf/left/ctf_left_ylw"
 			}
 		}
 
@@ -99,14 +99,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideGrn"
-		"xpos"			"c-110"
+		"xpos"			"c-160"
 		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
-		"tall"			"75"
+		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/ctf/ctf_bottom_left_grn"
+		"image"			"../hud/gamemodes/ctf/left/ctf_left_grn"
 		"scaleImage"	"1"
 
 		"if_4team"
@@ -134,6 +134,23 @@
 			"visible"	"0"
 		}
 	}
+	
+	"LeftSideBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBGContour"
+		"pin_to_sibling" "LeftSideBG"
+		"xpos"			"4"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"65"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/gamemodes/ctf/ctf_left_mask.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"	
+	}
 
 	"RightSideBG"
 	{
@@ -146,24 +163,24 @@
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/gamemodes/ctf/ctf_panel_red"
+		"image"			"../hud/gamemodes/ctf/right/ctf_right_red"
 		"scaleImage"	"1"	
 		
 		"if_2team"
 		{
 			"if_r_blu"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_blu"
+				"image"		"../hud/gamemodes/ctf/right/ctf_right_blu"
 			}
 			
 			"if_r_grn"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_grn"
+				"image"		"../hud/gamemodes/ctf/right/ctf_right_grn"
 			}
 			
 			"if_r_ylw"
 			{
-				"image"		"../hud/gamemodes/ctf/ctf_panel_ylw"
+				"image"		"../hud/gamemodes/ctf/right/ctf_right_ylw"
 			}
 		}
 		
@@ -172,12 +189,12 @@
 
 			"if_r_grn"
 			{
-				"image"		"../hud/ctf/ctf_top_right_grn"
+				"image"		"../hud/gamemodes/ctf/right/ctf_right_grn"
 			}
 			
 			"if_r_ylw"
 			{
-				"image"		"../hud/ctf/ctf_top_right_ylw"
+				"image"		"../hud/gamemodes/ctf/right/ctf_right_ylw"
 			}
 		}
 
@@ -211,14 +228,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideYlw"
-		"xpos"			"c43"
+		"xpos"			"c93"
 		"ypos"			"r78"
 		"zpos"			"1"
 		"wide"			"65"
-		"tall"			"75"
+		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/ctf/ctf_bottom_right_ylw"
+		"image"			"../hud/gamemodes/ctf/right/ctf_right_ylw"
 		"scaleImage"	"1"
 
 		"if_4team"
@@ -247,18 +264,35 @@
 		}
 	}
 
+	"RightSideBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBGContour"
+		"pin_to_sibling" "RightSideBG"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"65"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/gamemodes/ctf/ctf_right_mask.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"	
+	}
+
 	"CenterBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CenterBG"
-		"xpos"			"c-26"
-		"ypos"			"r144"
+		"xpos"			"c-32"
+		"ypos"			"r114"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"65"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/gamemodes/ctf/3team/ctf_panel_grn"
+		"image"			"../hud/gamemodes/ctf/middle/ctf_middle_grn"
 		"scaleImage"	"1"	
 		
 		"if_3team"
@@ -267,17 +301,17 @@
 			
 			"if_c_red"
 			{
-				"image"		"../hud/ctf/ctf_middle_red"
+				"image"		"../hud/gamemodes/ctf/middle/ctf_middle_red"
 			}
 			
 			"if_c_blu"
 			{
-				"image"		"../hud/ctf/ctf_middle_blu"
+				"image"		"../hud/gamemodes/ctf/middle/ctf_middle_blu"
 			}
 			
 			"if_c_ylw"
 			{
-				"image"		"../hud/ctf/ctf_middle_ylw"
+				"image"		"../hud/gamemodes/ctf/middle/ctf_middle_ylw"
 			}
 		}
 		
@@ -302,11 +336,34 @@
 		}
 	}
 
+	"CenterBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CenterBGContour"
+		"pin_to_sibling" "CenterBG"
+		"xpos"			"0"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"65"
+		"tall"			"65"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"resource/svgs/gamemodes/ctf/ctf_middle_mask.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"	
+		
+		"if_3team"
+		{
+			"visible"	"1"
+		}
+	}
+
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-170"
+		"xpos"			"c-166"
 		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
@@ -408,7 +465,7 @@
 			"if_c_grn"
 			{
 				"xpos"			"c-37"
-				"ypos"			"345"
+				"ypos"			"385"
 				"visible"		"1"
 			}
 		}
@@ -592,6 +649,43 @@
 			"visible"	"0"
 		}
 	}	
+	
+	"PlayingToBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayingToBGContour"
+		"pin_to_sibling" "PlayingToBG"
+		"xpos"			"0"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/gamemodes/shared/label_bottom.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
 
 	"BlueFlag"
 	{
@@ -700,8 +794,8 @@
 		{
 			"if_c_grn"
 			{
-				"xpos"			"-35"
-				"ypos"			"32"
+				"xpos"			"5"
+				"ypos"			"115"
 				"visible"		"1"
 			}
 		}
@@ -797,9 +891,9 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-41"
-		"ypos"			"r106"	[$WIN32]
-		"zpos"			"5"
+		"xpos"			"c-400"
+		"ypos"			"r100"	[$WIN32]
+		"zpos"			"0"
 		"wide"			"80"
 		"tall"			"80"
 		"visible"		"0"
@@ -807,7 +901,7 @@
 		
 		"if_3team"
 		{
-			"ypos"			"r139"
+			"ypos"			"r170"
 		}
 
 		"if_hybrid"

@@ -25,6 +25,22 @@
 		"image"			"../hud/meters/top/top"
 		"scaleImage"	"1"
 	}
+	"AccountBGContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AccountBGContour"
+		"pin_to_sibling" "AccountBG"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"resource/svgs/top_meter/top_meter.svg"
+		"drawcolor"		"TanLight"
+		"scaleImage"	"1"
+	}
 
 	"MetalIcon"	
 	{

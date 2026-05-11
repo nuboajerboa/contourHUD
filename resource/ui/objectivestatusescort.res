@@ -26,14 +26,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
-		"ypos"			"123"
+		"ypos"			"114"
 		"zpos"			"0"
 		"wide"			"254"
-		"tall"			"4"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/gamemodes/payload/track"
+		"image"			"../hud/gamemodes/payload/track_hill"
 		"scaleImage"	"1"
 		
 		"if_over2team"
@@ -57,9 +57,48 @@
 
 		"if_single_with_hills"
 		{
-			"image"			"../hud/gamemodes/payload/track"
+			"image"			"../hud/gamemodes/payload/track_hill"
 		}
 	}	
+	"LevelBarContour"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LevelBarContour"
+		"pin_to_sibling"  "LevelBar"
+		"xpos"			"13"
+		"ypos"			"-14"
+		"zpos"			"10"
+		"wide"			"272"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"image"			"../hud/gamemodes/payload/track"
+		"scaleImage"	"1"
+		
+		"if_over2team"
+		{
+			"xpos"			"73"
+			"wide"			"116"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"47"
+			}
+		}
+
+		"if_multiple_trains"
+		{
+			"ypos"			"114"
+			"zpos"			"3"
+			"tall"			"12"
+		}
+
+		"if_single_with_hills"
+		{
+		}
+	}		
+
 	
 	"ProgressBar"
 	{
@@ -99,14 +138,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"59"
-		"xpos_minmode"	"64"		
-		"ypos"			"111"
-		"ypos_minmode"	"116"
-		"zpos"			"1"
-		"wide"			"28"
-		"wide_minmode"	"18"
-		"tall"			"28"
-		"tall_minmode"	"18"
+		"ypos"			"81"
+		"zpos"			"20"
+		"wide"			"48"
+		"tall"			"48"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -200,15 +235,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"60"
-		"xpos_minmode"		"65"		
-		"ypos"			"111"
-		"ypos_minmode"		"116"		
+		"xpos"			"0"
+		"ypos"			"114"
 		"zpos"			"2"
-		"wide"			"28"
-		"wide_minmode"		"18"		
-		"tall"			"28"
-		"tall_minmode"		"18"
+		"wide"			"13"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -300,7 +331,7 @@
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"20"
 			"xpos_minmode"		"13"
-			"ypos"			"75"
+			"ypos"			"66"
 			"ypos_minmode"		"50"
 			"zpos"			"10"
 			"wide"			"40"
