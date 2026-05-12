@@ -152,25 +152,6 @@
 		}
 	}
 
-
-// !!! remove when complete !!!
-	"WIP"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"WIP"
-		"xpos"			"340"
-		"ypos"			"15"
-		"zpos"			"0"
-		"wide"			"186"
-		"tall"			"186"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"resource/svgs/mainmenu/logos/wip.svg"
-		"scaleImage"	"1"
-		"ProportionalToParent"	"1"
-	}
-// !!! remove when complete !!!
-
 	"VanityPanelShadow"
 	{
 		"ControlName"	"EditablePanel"

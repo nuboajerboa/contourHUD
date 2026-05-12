@@ -130,7 +130,7 @@ Scheme
 		"ItemFlags"								"117 107 94 255"
 		"ItemLimitedQuantity"					"225 209 0 255"
 		
-		"QualityColorNormal"					"51 48 46 255"
+		"QualityColorNormal"					"235 226 202 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
@@ -147,7 +147,7 @@ Scheme
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
-		"ItemRarityDefault"						"51 48 46 255"
+		"ItemRarityDefault"						"235 226 202 255"
 		"ItemRarityCommon"						"176 195 217 255"
 		"ItemRarityUncommon"					"94 152 217 255"
 		"ItemRarityRare"						"75 105 255 255"
@@ -155,7 +155,7 @@ Scheme
 		"ItemRarityLegendary"					"211 44 230 255"
 		"ItemRarityAncient"						"235 75 75 255"
 		
-		"ItemRarityDefault_GreyedOut"			"51 48 46 255"
+		"ItemRarityDefault_GreyedOut"			"235 226 202 255"
 		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
 		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
 		"ItemRarityRare_GreyedOut"				"25 35 85 255"
@@ -163,7 +163,7 @@ Scheme
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
 		
-		"QualityColorNormal_GreyedOut"			"51 48 46 255"
+		"QualityColorNormal_GreyedOut"			"235 226 202 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
 		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
 		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
@@ -3607,7 +3607,6 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/backpack/backpack_rect"
-			"color"					"TanLight"
 
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"

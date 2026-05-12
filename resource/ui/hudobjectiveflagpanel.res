@@ -441,7 +441,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GreenScore"
-		"xpos"			"c-170"
+		"xpos"			"c-166"
 		"ypos"			"r61"
 		"zpos"			"8"
 		"wide"			"75"
@@ -454,6 +454,24 @@
 		"fgcolor"		"TanLight"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"3"
+		
+		"if_2team"
+		{
+
+			"if_r_blu"
+			{
+				"visible" "1"
+			}
+			"if_r_red"
+			{
+				"visible" "1"
+			}
+			"if_r_ylw"
+			{
+				"visible" "1"
+			}
+
+		}
 		
 		"if_4team"
 		{
@@ -508,6 +526,16 @@
 		"fgcolor"		"TanLight"
 		"dropshadow_override"		"1"
 		"dropshadowoffset"	"3"
+		
+		"if_2team"
+		{
+
+			"if_r_ylw"
+			{
+				"visible" "1"
+			}
+
+		}
 		
 		"if_4team"
 		{

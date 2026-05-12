@@ -26,6 +26,23 @@
 		"scaleImage"			"1"	
 	}
 	
+	"ItemEffectMeterBGContour"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterBGContour"
+		"pin_to_sibling"		"ItemEffectMeterBG"
+		"xpos"					"-3"
+		"ypos"					"-3"
+		"zpos"					"1"
+		"wide"					"140"
+		"tall"					"100"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"resource/svgs/bar/bar.svg"
+		"drawcolor"				"TanLight"
+		"scaleImage"			"1"	
+	}
+	
 	"ItemEffectMeterBGOverlay"
 	{
 		"ControlName"			"ImagePanel"

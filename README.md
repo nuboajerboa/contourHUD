@@ -1,0 +1,50 @@
+# Installation
+
+### From Github
+
+>*Unstable* Releases:
+
+Run in your terminal;
+```
+git clone https://github.com/nuboajerboa/contourHUD
+```
+
+>*"Stable"* Releases:
+1. Click on the "Releases" page;
+2. Open "Assets";
+3. Click on the first option, or any additional zip provided if you want customizations
+
+### From Gamebanana
+
+Click the "Manual Download" button
+
+## Directories
+After you're done, drag 'n' drop, or clone directly into your game directory:
+
+### Windows
+
+```
+C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2 Classified\tf2classified\custom\
+```
+
+### Linux
+
+```
+~/.local/share/steam/Steam/steamapps/common/Team Fortress 2 Classified/tf2classified/custom/
+```
+
+## Updating
+Depending on your installation method you could go about it several ways
+
+>*Unstable*
+
+1. Open your contourhud folder;
+2. Open a terminal, and copy & paste the following command:
+   ```
+   git pull
+   ```
+3. Wait a little, and you're done!
+
+>*Stable*
+
+Download the most recent version in which ever website you prefer, delete the old version and replace it with the new one :)
