@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="nemesis_blank_mask.svg"
+   inkscape:export-filename="health_panel_mask_d.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.22627416"
+     inkscape:cx="1414.2136"
+     inkscape:cy="1155.6777"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false"><inkscape:page
+       x="0"
+       y="0"
+       width="512"
+       height="512"
+       id="page2"
+       margin="0"
+       bleed="0" /></sodipodi:namedview><defs
+     id="defs1"><style
+       id="style1" /></defs><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       id="path24"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.173536"
+       d="M 90.34384 135.86613 L 121.9662 203.20982 L 99.512272 216.84775 L 40.401668 213.0516 L 48.807357 223.08406 L 0 213.59368 L 74.566508 266.19719 L 68.600981 291.68504 L 73.966545 300.53773 L 25.765869 340.04643 L 113.55017 338.90593 L 137.74456 350.79616 L 135.37778 338.62274 L 165.02145 338.23775 L 165.40231 338.32302 L 173.53669 364.08269 L 183.42033 363.86203 L 220.44959 447.35977 L 237.22118 362.66365 L 238.1896 362.64195 L 240.35639 351.6421 L 246.40511 352.96399 L 249.11813 366.0929 L 293.7924 369.54437 L 300.13258 364.7059 L 382.84382 382.7818 L 338.08634 320.97369 L 350.59824 318.80018 L 350.59824 330.73072 L 400.76107 313.10595 L 413.50551 269.17944 L 404.82852 255.62212 L 490.51218 231.21844 L 453.45294 228.05843 L 511.99976 195.69555 L 386.51491 206.70315 L 370.93446 195.15553 L 305.85833 181.32692 L 292.21627 186.0951 L 291.11246 176.40525 L 311.28126 153.94047 L 287.67701 146.25102 L 188.16061 184.29934 L 90.34384 135.86613 z " /></g></svg>
