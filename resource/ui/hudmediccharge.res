@@ -271,7 +271,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_invuln.svg"
-		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 	
@@ -287,7 +286,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_kritz.svg"
-		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 
@@ -303,7 +301,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"resource/svgs/medic/ico_health_cluster_bubble.svg"
-		"drawcolor"		"TanLight"
 		"scaleImage"	"1"
 	}
 }

@@ -21,7 +21,7 @@
 		"fieldName"		"TimePanelBGContour"
 		"pin_to_sibling"	"TimePanelBG"
 		"xpos"			"0"
-		"ypos"			"-4"
+		"ypos"			"-3"
 		"zpos"			"1"
 		"wide"			"71"
 		"tall"			"71"

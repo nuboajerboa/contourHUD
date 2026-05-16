@@ -63,10 +63,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"pin_to_sibling"	"AccountBG"
-		"xpos"			"-13"
+		"xpos"			"-9"
 		"ypos"			"-38"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"70"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -77,6 +77,6 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumBold"
 		}
 }

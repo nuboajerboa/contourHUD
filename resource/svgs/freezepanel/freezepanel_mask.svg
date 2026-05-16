@@ -9,7 +9,7 @@
    id="svg1"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    sodipodi:docname="ammo.svg"
-   inkscape:export-filename="freezepanel_mask.png"
+   inkscape:export-filename="health_pamask_ed.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xml:space="preserve"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.22627416"
-     inkscape:cx="201.0835"
-     inkscape:cy="1151.2583"
+     inkscape:zoom="0.31999998"
+     inkscape:cx="1082.8126"
+     inkscape:cy="739.06255"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -43,7 +43,8 @@
        id="page2"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
-     id="defs1" /><g
+     id="defs1"><style
+       id="style1" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><path
@@ -119,5 +120,5 @@
          sodipodi:nodetypes="ccccc" /></g><path
        id="path3"
        style="fill:#ffffff;fill-opacity:1;stroke-width:1.64673"
-       d="m 0,166.00175 0,179.99625 511.99976,0 V 217.89781 Z"
+       d="M 1.6212077e-4,166.00186 9.5086264,345.99815 l 502.4913836,0 -1.6e-4,-128.1002 z"
        sodipodi:nodetypes="ccccc" /></g></svg>
